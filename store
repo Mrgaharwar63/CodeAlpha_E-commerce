@@ -1,2 +1,4 @@
 django-admin startproject ecommerce .
 python manage.py startapp store
+python manage.py makemigrations
+python manage.py migrate
